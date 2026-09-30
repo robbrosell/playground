@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Song Vote</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🎵 Song Vote</h1>
+      <p class="subtitle">Vote for your favorite songs, or add your own</p>
+    </header>
+
+    <form id="add-song-form" class="add-song-form">
+      <input type="text" id="title-input" placeholder="Song title" required />
+      <input type="text" id="artist-input" placeholder="Artist" required />
+      <button type="submit">Add Song</button>
+    </form>
+
+    <p id="error-message" class="error-message" hidden></p>
+
+    <ul id="song-list" class="song-list"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
