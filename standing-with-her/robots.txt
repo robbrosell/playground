@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://robbrosell.github.io/playground/standing-with-her/sitemap.xml

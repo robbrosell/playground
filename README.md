@@ -1,4 +1,15 @@
-# Song Vote
+# Playground
+
+This repository hosts a few small, independent projects.
+
+## Standing With Her
+
+A static multi-page site (`standing-with-her/`) for husbands of adult
+clergy sexual abuse survivors. See `standing-with-her/README.md` for
+details and deployment instructions. It auto-publishes to GitHub Pages
+via `.github/workflows/deploy-standing-with-her.yml`.
+
+## Song Vote
 
 A simple web app for voting on your favorite songs.
 
